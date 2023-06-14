@@ -1,0 +1,67 @@
+* {
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.trackItem{
+    background-color: #3f5efbc5;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: .5rem 0rem;
+    display: flex;
+    padding: .5rem .5rem;
+    justify-content: space-between;
+    border-radius: .4rem;
+    align-items: center;
+    text-align: left;
+    height: 3.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color:#ffffff;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+h4{
+    font-size: .8rem;
+    color:rgb(50, 50, 50);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow:hidden;
+}
+
+.trackChange{
+    border: none;
+    background-color: rgba(2,17,79,.3);
+    border-radius: 50%;
+    height: 1.8rem;
+    width: 1.8rem;
+    min-height: 1.8rem;
+    min-width: 1.8rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: .2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.trackChange:hover{
+    background-color: rgba(2,17,79,.7);
+    color: white; 
+    
+}
+
+
+.addedSong{
+    width: 90%;
+}
+
+.updateTrack{
+    width: 10%;
+}

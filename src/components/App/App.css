@@ -1,0 +1,51 @@
+.App {
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+}
+  
+h1{
+    color: white;
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+}
+.searchBar{
+    margin: 1rem;
+    padding: 2rem;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(248,252,70,0.3) 100%);
+    border-radius: 1rem;
+}
+  
+.panels {
+    display: flex;
+    justify-content: space-between;
+
+}
+  
+.panel{
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 2rem;
+    margin: .5rem 1rem;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(248,252,70,0.3) 100%);
+    height: fit-content;
+    border-radius: .5rem;
+    width: 40%;
+}
+
+
+@media only screen and (max-width: 750px){
+    .panels{
+        flex-direction: column-reverse;
+
+    }
+
+    .panel{
+        width: 80%;
+        margin: .5rem auto;
+    }
+}
